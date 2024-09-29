@@ -33,7 +33,7 @@ class CrewtestprojectCrew():
 	# 定义task的回调函数，在任务完成后记录输出事件
 	def append_event_callback(self,task_output):
 		print("Callback called: %s", task_output)
-		append_event(self.job_id, task_output.expected_output)
+		append_event(self.job_id, task_output.raw)
 
 	# 通过@agent装饰器定义一个函数，返回一个Agent实例
 	@agent
