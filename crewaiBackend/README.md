@@ -152,4 +152,31 @@ http://127.0.0.1:8012/api/crew/{jobId}
 {                 
     "customer_domain": "https://www.emqx.com/zh",                          
     "project_description": "EMQX是一种开源的分布式消息中间件，专注于处理物联网 (IoT) 场景下的大规模消息通信。它基于MQTT协议，能够实现高并发、低延迟的实时消息推送，支持设备之间、设备与服务器之间的双向通信。客户领域:分布式消息中间件解决方案,项目概述:创建一个全面的营销活动，以提高企业客户对 EMQX 服务的认识和采用。"                 
-}                
+}       
+
+### （3）使用Vue.js实现一个简单的前端页面与后端进行数据交互                   
+(1)准备工作       
+官网下载安装node.js、下载安装VSCode编辑器，官网链接如下:             
+https://nodejs.org/zh-cn         
+https://code.visualstudio.com/         
+(2)创建一个文件夹vuetest,在VSCode中打开该文件夹，打开终端执行如下命令创建项目         
+npm create vue@latest         
+在选择项中，指定项目名称，自定义即可，这里设置为vue-crewai，其他选项根据自己选择进行设置，一般默认选项即可            
+(3)初始化并运行项目        
+npm install                           
+npm run dev             
+(4)引入UI框架      
+链接地址:https://element-plus.org/zh-CN/guide/installation.html            
+npm install element-plus     
+在代码中按需导入，先执行如下命令安装相关依赖                    
+npm install -D unplugin-vue-components unplugin-auto-import       
+最后在vite.config.js中新增内容后重启服务即可            
+(5)编写页面代码        
+在初始项目基础上进行改写，页面布局交互、前后端数据交互(使用axios调用后端接口)         
+https://www.axios-http.cn/         
+安装axios     npm install axios          
+新增一个组件crewaiTest.vue,代码见crewaiTest.vue文件          
+(6)启动后端服务，前端页面进行测试             
+测试数据如下:              
+https://www.emqx.com/zh                   
+EMQX是一种开源的分布式消息中间件，专注于处理物联网 (IoT) 场景下的大规模消息通信。它基于MQTT协议，能够实现高并发、低延迟的实时消息推送，支持设备之间、设备与服务器之间的双向通信。客户领域:分布式消息中间件解决方案,项目概述:创建一个全面的营销活动，以提高企业客户对 EMQX 服务的认识和采用。                  
