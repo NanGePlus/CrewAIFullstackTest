@@ -2,7 +2,18 @@
 本项目主要分为三期视频介绍，第一期视频主要实现后端服务(Flask)的实现并使用ApiFox进行前后端联调，第二期视频主要给大家读一下源码，第三期视频主要实现前端页面与后端服务做交互           
 项目简介:在“营销战略策划协作智能体”这个项目的基础上进行迭代，这里也会再重新介绍下该项目，关于此项目更多细节可以查看这期视频                           
 https://www.bilibili.com/video/BV1i5bAeAEWn/?vd_source=30acb5331e4f5739ebbad50f7cc6b949              
-https://youtu.be/w8uxBuVQVlg               
+https://youtu.be/w8uxBuVQVlg                
+本项目相关视频如下:                
+(1)从零到一！打造多Agent协作AI全栈应用：后端服务构建及联调，CrewAI、Flask与Vue.js的完美结合！支持GPT、国产大模型与Ollama本地大模型           
+https://www.bilibili.com/video/BV1r7x1eJEVV/?vd_source=30acb5331e4f5739ebbad50f7cc6b949          
+https://youtu.be/xyWicC0UI94                   
+(2)从零到一！打造多Agent协作AI全栈应用：后端服务源码剖析，crewAI、Flask与Vue.js的完美结合！支持GPT、国产大模型与Ollama本地大模型          
+https://www.bilibili.com/video/BV1cD4PezEvn/?vd_source=30acb5331e4f5739ebbad50f7cc6b949             
+https://youtu.be/uMzPXRCFemQ                     
+(3)从零到一！打造多Agent协作AI全栈应用：前端服务构建及接口，crewAI、Flask与Vue.js的完美结合！支持GPT、国产大模型与Ollama本地大模型             
+https://www.bilibili.com/video/BV1K52SY6EyK/?vd_source=30acb5331e4f5739ebbad50f7cc6b949          
+https://youtu.be/TKzWklGcA_g             
+
 **定义了3个Agent**        
 **lead_market_analyst:**                      
   role: >            
